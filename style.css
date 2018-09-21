@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2:100, 400, 700');
+
+body {
+    background-image: url('/imgs/shadow.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    display: grid;
+    height: 100vh;
+}
+.content {
+    align-self: center;
+    justify-self: center;
+}
+.header {
+    color: #fff;
+    
+}
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Exo 2';
+    font-weight: 100;
+    font-size: 36px;
+}
+
+.main {
+    display:flex;
+    flex-wrap: wrap;
+    padding: 0 40px;
+    color: #000;
+
+
+}
+.main__block {
+    background-image: url('/imgs/back.png');
+    font-family: 'Trebuchet MS', 'Exo 2';
+    width: 320px;
+    height: 480px;
+    margin: 0px 40px;
+    margin-bottom: 70px;
+    
+}
+.main__block.disabled {
+    background-image: url('/imgs/back-disabled.png');
+    color: rgba(179, 179, 179, .5);
+    
+}
+.main__block.selected {
+    background-image: url('/imgs/back-selected.png');
+    
+    
+}
+p {
+    margin: 0;
+}
+.main__block__p1 {
+    margin-left: 51px;
+    margin-top: 21px;
+    font-size: 16px;
+}
+.main__block__p2 {
+    font-weight: 700;
+    font-size: 48px;
+    margin-left: 48px;
+    margin-top: 5px;
+}
+.main__block__p3 {
+    font-weight: 700;
+    font-size: 24px;
+    margin-left: 51px;
+}
+.main__block__p4 {
+    margin-left: 51px;
+    margin-top: 21px;
+    font-size: 14px;
+}
+.main__block__p4__span1 {
+    font-weight: 700;
+}
+.main__block__p5 {
+    margin-left: 51px;
+}
+.main__block__p5__span1 {
+    font-weight: 700;
+}
+.main__block__p6 {
+    font-size: 42px;
+    color: #fff;
+    margin-left: 210px;
+    margin-top: 207px;
+    text-align: center;
+}
+.main__block__p7 {
+    font-size: 21px;
+    color: #fff;
+    margin-left: 210px;
+    margin-top: -5px;
+    text-align: center;
+}
+.main__block__p8 {
+    font-size: 12.5px;
+    color: #fff;
+    margin-top: 30px;
+    text-align: center;
+}
+.main__block__p8__span1 {
+    color: #1698d9;
+    border-bottom: 1px dashed;
+}
+.main__block__p8__span2 {
+    color: #1698d9;
+}
+.main__block__p9 {
+    font-size: 12.5px;
+    margin-top: 30px;
+    text-align: center;
+    color: rgb(255, 255, 102);
+}
+
+
