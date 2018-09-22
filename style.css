@@ -105,29 +105,29 @@ p {
     margin-top: -5px;
     text-align: center;
 }
-.main__block__p8 {
+.main__p8 {
     font-size: 12.5px;
     color: #fff;
     margin-top: 10px;
     text-align: center;
 }
-.main__block__p8__span1 {
+.main__p8__span1 {
     color: #1698d9;
     border-bottom: 1px dashed;
 }
-.main__block__p8__span1:hover {
+.main__p8__span1:hover {
     cursor: pointer;
 }
-.main__block__p8__span2 {
+.main__p8__span2 {
     color: #1698d9;
 }
-.main__block__p8_selected {
+.main__p8_selected {
     font-size: 12.5px;
     color: #fff;
     margin-top: 10px;
     text-align: center;
 }
-.main__block__p8_disabled {
+.main__p8_disabled {
     font-size: 12.5px;
     margin-top: 10px;
     text-align: center;
