@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>prototype</title>
+    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,66 +15,9 @@
         <div class="header">
             <h1>Ты сегодня покормил кота?</h1>
         </div>
-        <div class="content__main">
-            <div class="main">
-                <div class="main__block">
-                    <p class="main__block__p1">Сказочное заморское яство</p>
-                    <p class="main__block__p2">Нямушка</p>
-                    <p class="main__block__p3">с фуа-гра</p>
-                    <p class="main__block__p4">
-                        <span class="main__block__p4__span1">10 </span>порций
-                    </p>
-                    <p class="main__block__p5">
-                        <span class="main__block__p5__span1"></span>мышь в подарок
-                    </p>
-                    <p class="main__block__p6">0,5</p>
-                    <p class="main__block__p7">кг</p>
-                    </div>
-                    <p class="main__p8">Чего сидишь? Порадуй котэ, <span class="main__p8__span1">купи.</span>
-                    </p>
-                    <p class="main__p8_selected">Головы щучьи с чесноком да свежайшая сёмгушка.</p>
-                    <p class="main__p8_disabled">Печалька, с курой закончился.</p>
-                </div>
-            <div class="main">
-                <div class="main__block selected">
-                    <p class="main__block__p1">Сказочное заморское яство</p>
-                    <p class="main__block__p2">Нямушка</p>
-                    <p class="main__block__p3">с рыбой</p>
-                    <p class="main__block__p4">
-                        <span class="main__block__p4__span1">40 </span>порций
-                    </p>
-                    <p class="main__block__p5">
-                        <span class="main__block__p5__span1">2 </span>мыши в подарок
-                    </p>
-                    <p class="main__block__p6">2</p>
-                    <p class="main__block__p7">кг</p>
-                    </div>
-                    <p class="main__p8">Чего сидишь? Порадуй котэ, <span class="main__p8__span1">купи.</span>
-                    </p>
-                    <p class="main__p8_selected">Головы щучьи с чесноком да свежайшая сёмгушка.</p>
-                    <p class="main__p8_disabled">Печалька, с курой закончился.</p>
-                </div>
-            <div class="main">
-                <div class="main__block disabled">
-                    <p class="main__block__p1">Сказочное заморское яство</p>
-                    <p class="main__block__p2">Нямушка</p>
-                    <p class="main__block__p3">с курой</p>
-                    <p class="main__block__p4">
-                        <span class="main__block__p4__span1">100 </span>порций
-                    </p>
-                    <p class="main__block__p5">
-                        <span class="main__block__p5__span1">5 </span>мышей в подарок
-                    </p>
-                    <p class="main__block__p6">5</p>
-                    <p class="main__block__p7">кг</p>
-                </div>
-                <p class="main__p8">Чего сидишь? Порадуй котэ, <span class="main__p8__span1">купи.</span>
-                </p>
-                <p class="main__p8_selected">Головы щучьи с чесноком да свежайшая сёмгушка.</p>
-                <p class="main__p8_disabled">Печалька, с курой закончился.</p>
-            </div>
+        <div id="content__main">
         </div>
-    </div>
+    <script src="./script-react.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

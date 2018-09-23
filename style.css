@@ -9,6 +9,9 @@ body {
     display: grid;
     height: 100vh;
 }
+#root {
+    color: white;
+}
 .content {
     align-self: center;
     justify-self: center;
@@ -25,7 +28,7 @@ h1 {
     font-size: 36px;
 }
 
-.content__main {
+#content__main {
     display:flex;
     flex-wrap: wrap;
     padding: 0 40px;
